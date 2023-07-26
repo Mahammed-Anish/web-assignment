@@ -1,0 +1,66 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin-top: 20%; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 400px;
+    height: 350px;
+    background-color: azure;
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+
+.form-login {
+    margin-left: 10px;
+    margin-top: 10%;
+}
+
+.header {
+    text-align: center;
+    padding-top: 10%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 4px 12px;
+    width: 80%;
+    border-radius: 4px;
+}
+
+.btn {
+    width: 88%;
+    padding: 8px 12px;
+    background-color: rgb(76, 202, 76);
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.para {
+    text-align: center;
+}
+
+.forgot {
+   margin: 5px;
+} 
+
+.forgot a {
+    color: rgb(76,202,76);
+    text-decoration: none;
+}
